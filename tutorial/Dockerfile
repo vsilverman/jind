@@ -23,7 +23,6 @@ USER jenkins
 
 # auto install blue ocean plugins
 RUN /usr/local/bin/install-plugins.sh blueocean:1.24.0
-
 # RUN /usr/local/bin/install-plugins.sh docker-slaves github-branch-source:1.8
 
 # use this for creating default admin user
